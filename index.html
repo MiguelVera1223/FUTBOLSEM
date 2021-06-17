@@ -4,14 +4,60 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
     <title>Document</title>
 </head>
 <body>
-    <h1>hola como estan </h1>
+    <div class="container">
+    
+            <div class="row  mt-2 ">
+              <div class="col text-center">
+                <h1>Peloteros de Maju</h1>
+              </div> 
+            </div>
 
-    <h2>esto es una prueba</h2>
-    <h3>asasas</h3>
-    <h4>sasasa</h4>
-    <h1>olaaaaaaaaa</h1>
+            <div class="container-clock">
+                <h1 id="time">00:00:00</h1>
+                <p id="date">date</p>
+            </div>
+            
+            <br> <br>
+
+            <table class="table text-center">
+                <thead class="table-dark ">
+                    <tr>
+                        <th scope="col">Fecha</th>
+                        <th scope="col">Monto</th>
+                        <th scope="col">Gasto</th>
+                        <th scope="col">Descripcion</th>
+                        <th scope="col">imagen</th>
+                      </tr>
+                </thead>
+                <tbody class="">
+                    <tr class="align-items-center">
+                        <th scope="row">14/06/2021</th>
+                        <td>S/ 25.00</td>
+                        <td>0</td>
+                        <td>falta de armando S/ 10.00</td>
+                        <td><button type="button" class="btn btn-success"> Imagen</button></td>
+                      </tr>
+                      <tr>
+                        <th scope="row">15/06/2021</th>
+                        <td>S/ 15.00</td>
+                        <td>0</td>
+                        <td></td>
+                      </tr>
+                      <tr>
+                        <th scope="row">16/06/2021</th>
+                        <td >S/ 15.00</td>
+                        <td>0</td>
+                      </tr>
+                </tbody>
+              </table>
+
+        
+    </div>
+<script src="./clock.js"></script>
 </body>
 </html>
